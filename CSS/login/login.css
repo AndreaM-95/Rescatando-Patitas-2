@@ -1,23 +1,17 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 28/09/2022, 5:58:18 p. m.
-    Author     : Andrea
-*/
-.container-fluid{
-   font-family: 'Montserrat'; 
-}
 
-#form{
-    font-family: 'Montserrat'; 
+#form-box{
     margin: 3% 0 0 30%; 
     width: 40%;
     background: #44b4b0;
     border-radius: 1rem;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
     padding: 1rem;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #saludo{
@@ -31,6 +25,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 #dato{
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: .6rem;
+    width: 20rem;
 }
 
 .boton{
@@ -42,10 +38,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     font-size: 1.3rem;
     font-weight: 400;
     height: 3rem;
-    margin: 0 1rem 0 1rem;
+    margin: 1rem;
     width: 13.5rem;
     cursor: pointer;
-    margin-left: 30%;
 }
 .boton:hover{
     background: #F8DAA3;
